@@ -1,7 +1,5 @@
 blue="\e[34m"
-banner(){
 toilet T-Osint
-}
 menu(){
 echo -e "$blue             ＞＞＞＞>>>＞$blue[Menu]$blue＜<<<＜＜＜＜$blue"
 echo " "
@@ -13,7 +11,6 @@ echo -ne "\e[34m#Select Option\e[34m: "
 read optnz
 if [ $optnz = "1" ];
 then
-banner
 sleep 1
 echo -ne "\e[34m#Type the username you want to search here\e[34m: "
 read usn
