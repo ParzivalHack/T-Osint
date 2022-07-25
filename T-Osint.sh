@@ -1,6 +1,6 @@
 blue="\e[34m"
+echo -e "$blue"
 toilet T-Osint
-menu(){
 echo -e "$blue             ＞＞＞＞>>>＞$blue[Menu]$blue＜<<<＜＜＜＜$blue"
 echo " "
 echo " "
@@ -50,4 +50,3 @@ elif [ $optnz = "3" ];
 then
 am start -a android.intent.action.VIEW -d https://github.com/WhisperVPN/WhisperVPN/ > /dev/null 2>&1
 fi
-}
