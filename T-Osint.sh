@@ -15,9 +15,33 @@ if [ $optnz = "1" ];
 then
 banner
 sleep 1
-echo -ne "\e[34m#Type the username here\e[34m: "
-read host
-o9i8u76ytgiuyhutgytgtytgyhg
+echo -ne "\e[34m#Type the username you want to search here\e[34m: "
+read usn
+echo -e "https://flare.rive.app/a/$usn"
+echo -e "https://www.7cups.com/@$usn"
+echo -e "https://9gag.com/u/$usn"
+echo -e "https://about.me/$usn"
+echo -e "https://independent.academia.edu/$usn"
+echo -e "https://www.alik.cz/u/$usn"
+echo -e "https://www.alltrails.com/members/$usn/lists"
+echo -e "https://discussions.apple.com/profile/$usn"
+echo -e "https://archive.org/details/@$usn"
+echo -e "https://asciinema.org/~$usn"
+echo -e "https://ask.fedoraproject.org/u/$usn"
+echo -e "https://ask.fm/$usn"
+echo -e "https://discuss.atom.io/u/$usn"
+echo -e "https://audiojungle.net/user/$usn"
+echo -e "https://www.avizo.cz/$usn"
+echo -e "https://blip.fm/$usn"
+echo -e "https://$usn.booth.pm/"
+echo -e "https://bandcamp.com/$usn"
+echo -e "https://www.bazar.cz/$usn"
+echo -e "https://www.behance.net/$usn"
+echo -e "https://binarysearch.com/@/$usn"
+echo -e "https://bitbucket.org/$usn"
+echo -e "https://bitcoinforum.com/profile/$usn"
+echo -e "https://$usn.blogspot.com/"
+echo -e "https://bodyspace.bodybuilding.com/$usn"
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://portosaurus.github.io/TommasoBona/ > /dev/null 2>&1
