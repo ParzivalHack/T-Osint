@@ -42,6 +42,10 @@ echo -e "https://bitbucket.org/$usn"
 echo -e "https://bitcoinforum.com/profile/$usn"
 echo -e "https://$usn.blogspot.com/"
 echo -e "https://bodyspace.bodybuilding.com/$usn"
+echo -e "https://www.instagram.com/$usn"
+echo -e "https://twitter.com/$usn"
+echo -e "https://www.facebook.com/$usn"
+echo -e "https://www.google.com/search?q=$usn"
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://portosaurus.github.io/TommasoBona/ > /dev/null 2>&1
